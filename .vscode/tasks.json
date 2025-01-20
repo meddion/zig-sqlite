@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "zig build test-build",
+            "type": "shell",
+            "command": "zig",
+            "args": [
+                "build",
+                "test-build"
+            ]
+        },
+        {
+            "label": "zig build play-build",
+            "type": "shell",
+            "command": "zig",
+            "args": [
+                "build",
+                "play-build"
+            ]
+        },
+        {
+            "label": "zig build install",
+            "type": "shell",
+            "command": "zig",
+            "args": [
+                "build",
+                "install"
+            ]
+        }
+    ]
+}
